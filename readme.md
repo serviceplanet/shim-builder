@@ -3,7 +3,7 @@ General
 
 This repository contains the scripts used to setup the build environment for
 building the unsigned Service Planet shim. The intention is to show that the
-unsigned Service Planet shim is build from the official shim 0.9 release with
+unsigned Service Planet shim is build from the official shim 12 release with
 only the Service Planet signing key added.
 
 We will use the vanilla CentOS 7.5 / 1804 (`CentOS-7-x86_64-Everything-1804.iso`)
@@ -25,7 +25,7 @@ Requirements
 
 This guide assumes:
 
-* You use an RedHat based Linux distribution like RHEL, CentOS or Fedora. This guide was written and tested with a fully updated CentOS 7.3 installation.
+* You use an RedHat based Linux distribution like RHEL, CentOS or Fedora. This guide was written and tested with a fully updated CentOS 7.5 installation.
 * You have the Service Planet shim build system [GIT repository]( https://github.com/serviceplanet/shim-builder) cloned at a location of your convienence. We will reference this location as `$PROJECT_HOME` in this guide. It is advisable to configure `PROJECT_HOME` as an environmental variable in your shell.
 * You have imported and verified trust of the following identities / PGP keys:
  * **0xeed266b70f4fef10** Peter Jones (RedHat)
