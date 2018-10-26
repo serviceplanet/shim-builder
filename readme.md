@@ -25,7 +25,7 @@ Requirements
 
 This guide assumes:
 
-* You use an RedHat based Linux distribution like RHEL, CentOS or Fedora. This guide was written and tested with a fully updated CentOS 7.5 installation.
+* You use an RedHat based Linux distribution like RHEL, CentOS or Fedora.
 * You have the Service Planet shim build system [GIT repository]( https://github.com/serviceplanet/shim-builder) cloned at a location of your convienence. We will reference this location as `$PROJECT_HOME` in this guide. It is advisable to configure `PROJECT_HOME` as an environmental variable in your shell.
 * You have imported and verified trust of the following identities / PGP keys:
  * **0xeed266b70f4fef10** Peter Jones (RedHat)
